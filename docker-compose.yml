@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+  web:
+    image: webdevops/nginx:ubuntu-16.04
+    hostname: 'docker-init-app'
+    container_name: 'docker-init-app'
+    ports:
+      - 8000:80
+    volumes:
+      - ./app:/app
+    environment:
+      - WEB_DOCUMENT_INDEX=index.html
