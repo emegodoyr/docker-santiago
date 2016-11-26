@@ -20,12 +20,13 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="/" class="logo"><strong>INIT DOCKER</strong> <span>por DOCKER SANTIAGO</span></a>
-						<!--<nav>-->
-							<!--<a href="#menu">Menu</a>-->
-						<!--</nav>-->
-					</header>
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<header id="header" class="alt">
+					<a href="/" class="logo"><strong>INIT DOCKER</strong> <span>por DOCKER SANTIAGO</span></a>
+					<!--<nav>-->
+						<!--<a href="#menu">Menu</a>-->
+					<!--</nav>-->
+				</header>
 
 				<!-- Menu -->
 					<!--<nav id="menu">-->
@@ -42,16 +43,17 @@
 					<!--</nav>-->
 
 				<!-- Banner -->
-					<section id="banner" class="major">
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
 						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
 							<header class="major">
-								<h1>Hola, mi nombre es Docker</h1>
+								<h1>Imaganes</h1>
 							</header>
 							<div class="content">
-								<p>Soy un sistema de contenedores para trabajar en desarrollo y producción.</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Conoceme aun más</a></li>
-								</ul>
+								<p>No te preocupes por la version, puedes tenerlas todas a la vez.</p>
 							</div>
 						</div>
 					</section>
@@ -60,73 +62,92 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="container.html" class="link">Contenedores</a></h3>
-										<p>Mi entorno en todas partes</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="image.html" class="link">Imagenes</a></h3>
-										<p>No importa la version</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="network.html" class="link">Redes</a></h3>
-										<p>Distribucion flexible</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="storage.html" class="link">Almacenamiento</a></h3>
-										<p>Mantengo solo lo que me interesa</p>
-									</header>
-								</article>
-								<!--<article>-->
-									<!--<span class="image">-->
-										<!--<img src="images/pic05.jpg" alt="" />-->
-									<!--</span>-->
-									<!--<header class="major">-->
-										<!--<h3><a href="landing.html" class="link">Orquestacion</a></h3>-->
-										<!--<p>Ipsum dolor sit amet</p>-->
-									<!--</header>-->
-								<!--</article>-->
-								<!--<article>-->
-									<!--<span class="image">-->
-										<!--<img src="images/pic06.jpg" alt="" />-->
-									<!--</span>-->
-									<!--<header class="major">-->
-										<!--<h3><a href="landing.html" class="link">Etiam</a></h3>-->
-										<!--<p>Feugiat amet tempus</p>-->
-									<!--</header>-->
-								<!--</article>-->
-							</section>
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h2>Un pequeño ejemplo</h2>
+								</header>
+								<label> Dockerfile 1: </label>
+								<p>
+								<pre>
+				<code>
+FROM postgres:9.2
+RUN ....
+				</code>
+				</pre>
+
+								<label> Dockerfile 2: </label>
+								<pre>
+				<code>
+FROM postgres:9.6
+RUN ....
+				</code>
+				</pre>
+								</p>
+							</div>
+						</section>
 
 						<!-- Two -->
-							<!--<section id="two">-->
+							<!--<section id="two" class="spotlights">-->
+								<!--<section>-->
+									<!--<a href="../unused/generic.html" class="image">-->
+										<!--<img src="images/pic08.jpg" alt="" data-position="center center" />-->
+									<!--</a>-->
+									<!--<div class="content">-->
+										<!--<div class="inner">-->
+											<!--<header class="major">-->
+												<!--<h3>Orci maecenas</h3>-->
+											<!--</header>-->
+											<!--<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>-->
+											<!--<ul class="actions">-->
+												<!--<li><a href="../unused/generic.html" class="button">Learn more</a></li>-->
+											<!--</ul>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</section>-->
+								<!--<section>-->
+									<!--<a href="../unused/generic.html" class="image">-->
+										<!--<img src="images/pic09.jpg" alt="" data-position="top center" />-->
+									<!--</a>-->
+									<!--<div class="content">-->
+										<!--<div class="inner">-->
+											<!--<header class="major">-->
+												<!--<h3>Rhoncus magna</h3>-->
+											<!--</header>-->
+											<!--<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>-->
+											<!--<ul class="actions">-->
+												<!--<li><a href="../unused/generic.html" class="button">Learn more</a></li>-->
+											<!--</ul>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</section>-->
+								<!--<section>-->
+									<!--<a href="../unused/generic.html" class="image">-->
+										<!--<img src="images/pic10.jpg" alt="" data-position="25% 25%" />-->
+									<!--</a>-->
+									<!--<div class="content">-->
+										<!--<div class="inner">-->
+											<!--<header class="major">-->
+												<!--<h3>Sed nunc ligula</h3>-->
+											<!--</header>-->
+											<!--<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>-->
+											<!--<ul class="actions">-->
+												<!--<li><a href="../unused/generic.html" class="button">Learn more</a></li>-->
+											<!--</ul>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</section>-->
+							<!--</section>-->
+
+						<!--&lt;!&ndash; Three &ndash;&gt;-->
+							<!--<section id="three">-->
 								<!--<div class="inner">-->
 									<!--<header class="major">-->
-										<!--<h2>Docker Santiago</h2>-->
+										<!--<h2>Massa libero</h2>-->
 									<!--</header>-->
-									<!--<p>Somos un grupo de desarrolladores/devops evangelizadores de docker y contamos con el auspicio oficial de Docker en chile, comenzamos a desarrollar encuentros-->
-										<!--para llegar a mas personas con el fin de enseñar el porque es tan escencial docker en nuestro dia a dia, si quieres saber mas sobre nosotros, te invitamos.</p>-->
+									<!--<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>-->
 									<!--<ul class="actions">-->
-										<!--<li><a href="landing.html" class="button next">Quiero Saber Más</a></li>-->
+										<!--<li><a href="../unused/generic.html" class="button next">Get Started</a></li>-->
 									<!--</ul>-->
 								<!--</div>-->
 							<!--</section>-->
